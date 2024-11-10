@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const { ethers } = window;
 
     // Connect to Linea's JSON-RPC Provider (replace with correct Linea endpoint)
-    const provider = new ethers.providers.JsonRpcProvider("https://linea-mainnet.infura.io/v3/d031fe0b40f4444aa49170fac2555011");
+    const provider = new ethers.providers.JsonRpcProvider("https://linea-mainnet.infura.io/v3/ please use your Infura api key if you are checking ");
 
     const tokenABI = [
         "function name() view returns (string)",
