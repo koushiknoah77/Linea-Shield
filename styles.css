@@ -1,0 +1,99 @@
+/* Logo styling */
+.logo-container {
+    position: absolute; /* Position relative to the body */
+    top: 20px;  /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    z-index: 20; /* Ensure it stays above other content */
+}
+
+.logo {
+    width: 120px; /* Adjust the logo size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Your existing styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+    position: relative; /* Ensures absolute positioning of the logo works */
+}
+
+.container {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.subtext {
+    font-size: 0.9em;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #2a2a2a;
+    color: white;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #ffcc00;
+    background-color: #333;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00;
+    color: #1e1e1e;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e5b300;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ffcc00;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.result.warning {
+    color: red;
+}
+
+.result.safe {
+    color: green;
+}
+
+strong {
+    color: #ffcc00;
+}
