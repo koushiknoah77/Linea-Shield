@@ -32,12 +32,10 @@ Steps:
 
 Go to your Infura account and generate an API key.
 
-Open the .env file in the project folder.
+Open the script.js file in the project folder.
 
 Replace the value of INFURA_API_KEY with your personal API key, like this:
 
-env
-Copy code
 INFURA_API_KEY=your-api-key-here
 Save the file.
 
