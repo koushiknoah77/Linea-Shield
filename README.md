@@ -34,9 +34,8 @@ Go to your Infura account and generate an API key.
 
 Open the script.js file in the project folder.
 
-Replace the value of INFURA_API_KEY with your personal API key, like this:
+Replace the value of INFURA_API_KEY with your personal API key
 
-INFURA_API_KEY=your-api-key-here
 Save the file.
 
 Once this is done, you can start the application and proceed with testing.
