@@ -24,3 +24,26 @@ Usage
 - The system retrieves token details and runs a series of checks.
 - View results, including warnings if the token is flagged as a rug pull, honeypot, or scam.
 
+** Important: Please use your own API Key
+
+Before you start testing, please ensure that you replace the placeholder API key with your own Infura API key. This is necessary for the application to interact with the Linea blockchain.
+
+Steps:
+
+Go to your Infura account and generate an API key.
+
+Open the .env file in the project folder.
+
+Replace the value of INFURA_API_KEY with your personal API key, like this:
+
+env
+Copy code
+INFURA_API_KEY=your-api-key-here
+Save the file.
+
+Once this is done, you can start the application and proceed with testing.
+
+If you don't have an Infura account, you can create one here.
+
+Let me know if you need any further assistance!
+
